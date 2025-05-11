@@ -10,13 +10,13 @@
         <meta name="author" content="Chris">
       
       
-        <link rel="canonical" href="https://chrishenryginger.github.io/wiki/program/markdown/markdown_basic/">
+        <link rel="canonical" href="https://chrishenryginger.github.io/wiki/program/django/intro/">
       
       
-        <link rel="prev" href="../../git/">
+        <link rel="prev" href="../../">
       
       
-        <link rel="next" href="../markdown_extensions/">
+        <link rel="next" href="../startproject/">
       
       
       <link rel="icon" href="../../../assets/images/feather-pointed-solid-color.svg">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Markdown 基本语法 - Wiki</title>
+        <title>1. Django 简介 - Wiki</title>
       
     
     
@@ -131,7 +131,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#markdown" class="md-skip">
+        <a href="#django" class="md-skip">
           跳转至
         </a>
       
@@ -165,7 +165,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Markdown 基本语法
+              1. Django 简介
             
           </span>
         </div>
@@ -509,6 +509,8 @@
                 
   
   
+    
+  
   
   
     
@@ -528,11 +530,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
@@ -548,7 +550,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             服务端
@@ -559,8 +561,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -577,11 +581,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2_1" id="__nav_2_2_1_label" tabindex="0">
@@ -597,7 +601,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2_1">
             <span class="md-nav__icon md-icon"></span>
             Django
@@ -608,10 +612,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../django/intro/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    1. Django 简介
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -622,6 +648,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Web应用程序处理流程
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 特点
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-mvc-mtv" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. MVC 与 MTV模型
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. MVC 与 MTV模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-mvc" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 MVC 模型
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-mtv" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 MTV 模型
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 相关链接
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -634,7 +740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../django/startproject/" class="md-nav__link">
+      <a href="../startproject/" class="md-nav__link">
         
   
   
@@ -670,8 +776,6 @@
                 
   
   
-    
-  
   
   
     
@@ -699,11 +803,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
@@ -719,7 +823,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             开发工具
@@ -753,10 +857,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -773,11 +875,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_2" >
         
           
           <label class="md-nav__link" for="__nav_2_3_2" id="__nav_2_3_2_label" tabindex="0">
@@ -793,7 +895,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3_2">
             <span class="md-nav__icon md-icon"></span>
             Markdown
@@ -804,32 +906,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Markdown 基本语法
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../markdown/markdown_basic/" class="md-nav__link">
         
   
   
@@ -840,134 +920,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 标题
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 段落
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 换行
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 强调
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. 引用
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. 列表
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7" class="md-nav__link">
-    <span class="md-ellipsis">
-      7. 代码
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8" class="md-nav__link">
-    <span class="md-ellipsis">
-      8. 分隔线
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#9" class="md-nav__link">
-    <span class="md-ellipsis">
-      9. 链接
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10" class="md-nav__link">
-    <span class="md-ellipsis">
-      10. 图片
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#11" class="md-nav__link">
-    <span class="md-ellipsis">
-      11. 转义字符
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#12" class="md-nav__link">
-    <span class="md-ellipsis">
-      12. 表格
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -980,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../markdown_extensions/" class="md-nav__link">
+      <a href="../../markdown/markdown_extensions/" class="md-nav__link">
         
   
   
@@ -1420,9 +1372,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
+  <a href="#1-web" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 标题
+      1. Web应用程序处理流程
     </span>
   </a>
   
@@ -1431,97 +1383,49 @@
         <li class="md-nav__item">
   <a href="#2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. 段落
+      2. 特点
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
+  <a href="#3-mvc-mtv" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 换行
+      3. MVC 与 MTV模型
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="3. MVC 与 MTV模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-mvc" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 MVC 模型
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-mtv" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 MTV 模型
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#4" class="md-nav__link">
     <span class="md-ellipsis">
-      4. 强调
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. 引用
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6" class="md-nav__link">
-    <span class="md-ellipsis">
-      6. 列表
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7" class="md-nav__link">
-    <span class="md-ellipsis">
-      7. 代码
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8" class="md-nav__link">
-    <span class="md-ellipsis">
-      8. 分隔线
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#9" class="md-nav__link">
-    <span class="md-ellipsis">
-      9. 链接
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10" class="md-nav__link">
-    <span class="md-ellipsis">
-      10. 图片
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#11" class="md-nav__link">
-    <span class="md-ellipsis">
-      11. 转义字符
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#12" class="md-nav__link">
-    <span class="md-ellipsis">
-      12. 表格
+      4. 相关链接
     </span>
   </a>
   
@@ -1551,14 +1455,25 @@
         
       
       
-        <a href="../../../tags/#tag:markdown" class="md-tag md-tag-icon md-tag--markdown">Markdown</a>
+        <a href="../../../tags/#tag:django" class="md-tag md-tag-icon md-tag--django">Django</a>
+      
+    
+      
+      
+        
+        
+          
+        
+      
+      
+        <a href="../../../tags/#tag:python" class="md-tag md-tag-icon md-tag--python">Python</a>
       
     
   </nav>
 
 
   
-    <a href="https://github.com/chrishenryginger/wiki/edit/main/docs/program/markdown/markdown_basic.md" title="编辑此页" class="md-content__button md-icon">
+    <a href="https://github.com/chrishenryginger/wiki/edit/main/docs/program/django/intro.md" title="编辑此页" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1567,207 +1482,56 @@
     
       
     
-    <a href="https://github.com/chrishenryginger/wiki/raw/main/docs/program/markdown/markdown_basic.md" title="查看本页的源代码" class="md-content__button md-icon">
+    <a href="https://github.com/chrishenryginger/wiki/raw/main/docs/program/django/intro.md" title="查看本页的源代码" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>
     </a>
   
 
 
-<h1 id="markdown">Markdown 基本语法<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h1>
-<h2 id="1">1. 标题<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span>
-<span class="normal"><a href="#__codelineno-0-4">4</a></span>
-<span class="normal"><a href="#__codelineno-0-5">5</a></span>
-<span class="normal"><a href="#__codelineno-0-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="gh"># 一级标题</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="gu">## 二级标题</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="gu">### 三级标题</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="gu">#### 四级标题</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="gu">##### 五级标题</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="gu">###### 六级标题</span>
-</span></code></pre></div></td></tr></table></div>
-<h2 id="2">2. 段落<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
-<p>创建段落，请使用空白行将一行或多行文本进行分隔。</p>
-<h2 id="3">3. 换行<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
-<p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a>&lt;br&gt;
-</span></code></pre></div></td></tr></table></div></p>
-<h2 id="4">4. 强调<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
-<span class="normal"><a href="#__codelineno-2-2">2</a></span>
-<span class="normal"><a href="#__codelineno-2-3">3</a></span>
-<span class="normal"><a href="#__codelineno-2-4">4</a></span>
-<span class="normal"><a href="#__codelineno-2-5">5</a></span>
-<span class="normal"><a href="#__codelineno-2-6">6</a></span>
-<span class="normal"><a href="#__codelineno-2-7">7</a></span>
-<span class="normal"><a href="#__codelineno-2-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="gs">**粗体**</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="gs">__粗体__</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="ge">*斜体*</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="ge">_斜体_</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5"></a>***粗体和斜体***
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6"></a>___粗体和斜体___
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="ge">*__粗体和斜体__*</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="gs">**_粗体和斜体_**</span>
-</span></code></pre></div></td></tr></table></div>
-<p><strong>粗体</strong><br />
-<strong>粗体</strong><br />
-<em>斜体</em><br />
-<em>斜体</em><br />
-<strong><em>粗体和斜体</em></strong><br />
-<strong><em>粗体和斜体</em></strong><br />
-<em><strong>粗体和斜体</strong></em><br />
-<strong><em>粗体和斜体</em></strong>  </p>
-<h2 id="5">5. 引用<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
-<span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="k">&gt; </span><span class="ge">引用</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="k">&gt;</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="ge">&gt;&gt; 嵌套块引用</span>
-</span></code></pre></div></td></tr></table></div>
-<blockquote>
-<p>引用</p>
-<blockquote>
-<p>嵌套块引用</p>
-</blockquote>
-</blockquote>
-<h2 id="6">6. 列表<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
-<p>有序列表
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
-<span class="normal"><a href="#__codelineno-4-2">2</a></span>
-<span class="normal"><a href="#__codelineno-4-3">3</a></span>
-<span class="normal"><a href="#__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="k">1.</span> 第一项
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="k">2.</span> 第二项
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="k">3.</span> 第三项
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="k">4.</span> 第四项
-</span></code></pre></div></td></tr></table></div></p>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-<li>第四项</li>
-</ol>
-<p>无序列表
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
-<span class="normal"><a href="#__codelineno-5-2">2</a></span>
-<span class="normal"><a href="#__codelineno-5-3">3</a></span>
-<span class="normal"><a href="#__codelineno-5-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="k">*</span><span class="w"> </span>第一项
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="k">*</span><span class="w"> </span>第二项
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3"></a>+ 第三项
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="k">-</span><span class="w"> </span>第四项
-</span></code></pre></div></td></tr></table></div></p>
+<h1 id="django">Django 简介<a class="headerlink" href="#django" title="Permanent link">&para;</a></h1>
+<p>Django 是一个用于构建 Web 应用程序的高级 Python Web 框架。</p>
+<p>Django 提供了一套强大的工具和约定，使得开发者能够快速构建功能齐全且易于维护的网站。</p>
+<p>Django 本身基于 MVC 模型，即 Model（模型）+ View（视图）+ Controller（控制器）设计模式，MVC 模式使后续对程序的修改和扩展简化，并且使程序某一部分的重复利用成为可能。</p>
+<p>Django 采用了 MVT 的软件设计模式，即模型（Model），视图（View）和模板（Template）。</p>
+<h2 id="1-web">1. Web应用程序处理流程<a class="headerlink" href="#1-web" title="Permanent link">&para;</a></h2>
+<p><img alt="alt" src="../assets/web_processing_sequence.png" title="Web应用程序处理流程" /></p>
+<h2 id="2">2. 特点<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
 <ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-<li>第四项</li>
+<li><strong>ORM（对象关系映射）</strong>： Django 提供了一个强大的 ORM，允许开发者通过 Python 代码来定义和操作数据库模型，而无需直接使用 SQL。这使得数据库操作更加抽象和易于管理。</li>
+<li><strong>MVC 架构</strong>： Django 遵循 MVC（模型-视图-控制器）的软件设计模式，但它使用了稍微不同的术语。在 Django 中，模型（Model）表示数据结构，视图（View）负责呈现用户界面，而控制器（Controller）的职责被称为视图（View）。</li>
+<li><strong>模板引擎</strong>： Django 使用模板引擎来生成 HTML，这使得前端和后端的代码分离更加容易。Django 的模板语言允许开发者在模板中嵌入动态内容。</li>
+<li><strong>自动化 admin 界面</strong>： Django 自动生成管理后台，使得管理和操作数据库的过程变得非常简单。开发者可以轻松地创建、修改和删除数据库记录，而无需编写自定义的管理界面。</li>
+<li><strong>表单处理</strong>： Django 提供了强大的表单处理工具，使得用户输入的验证和处理变得更加简单。这对于开发 Web 表单和处理用户提交的数据非常有用。</li>
+<li><strong>安全性</strong>： Django 内置了一些安全性功能，例如防止常见的 Web 攻击（如 CSRF 攻击），并提供了方便的用户身份验证和授权系统。</li>
+<li><strong>可扩展性</strong>： Django 的组件是松耦合的，允许开发者使用现有的组件或编写自己的应用程序来扩展框架功能。</li>
+<li><strong>社区支持</strong>： Django 拥有庞大的社区支持，提供了大量的文档、教程和第三方包，使得学习和使用 Django 变得更加容易。</li>
 </ul>
-<h2 id="7">7. 代码<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
-<p>要将单词或短语表示为代码，请将其包裹在反引号 ( `) 中。
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="sb">`print()`</span> 函数
-</span></code></pre></div></td></tr></table></div></p>
-<p>代码块
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span>
-<span class="normal"><a href="#__codelineno-7-2">2</a></span>
-<span class="normal"><a href="#__codelineno-7-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="sb">```python</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">)</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="sb">```</span>
-</span></code></pre></div></td></tr></table></div></p>
-<h2 id="8">8. 分隔线<a class="headerlink" href="#8" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
-<span class="normal"><a href="#__codelineno-8-2">2</a></span>
-<span class="normal"><a href="#__codelineno-8-3">3</a></span>
-<span class="normal"><a href="#__codelineno-8-4">4</a></span>
-<span class="normal"><a href="#__codelineno-8-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1"></a>***
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2"></a>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3"></a>---
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4"></a>
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5"></a>_________________
-</span></code></pre></div></td></tr></table></div>
-<hr />
-<hr />
-<hr />
-<h2 id="9">9. 链接<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-1">1</a></span>
-<span class="normal"><a href="#__codelineno-9-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1"></a>[<span class="nt">链接名称</span>](<span class="na">链接地址</span>)
-</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2"></a>这是一个链接 [<span class="nt">Markdown语法</span>](<span class="na">https://markdown.com.cn</span>)。
-</span></code></pre></div></td></tr></table></div>
-<p>这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。</p>
-<h2 id="10">10. 图片<a class="headerlink" href="#10" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1">1</a></span>
-<span class="normal"><a href="#__codelineno-10-2">2</a></span>
-<span class="normal"><a href="#__codelineno-10-3">3</a></span>
-<span class="normal"><a href="#__codelineno-10-4">4</a></span>
-<span class="normal"><a href="#__codelineno-10-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1"></a>![<span class="nt">alt 属性文本</span>](<span class="na">图片地址</span>)
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2"></a>
-</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3"></a>![<span class="nt">alt 属性文本</span>](<span class="na">图片地址 &quot;可选标题&quot;</span>)
-</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4"></a>
-</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5"></a>对应的HTML代码：&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;
-</span></code></pre></div></td></tr></table></div>
-<h2 id="11">11. 转义字符<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
-<p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 <code>\</code> 。</p>
-<h2 id="12">12. 表格<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1">1</a></span>
-<span class="normal"><a href="#__codelineno-11-2">2</a></span>
-<span class="normal"><a href="#__codelineno-11-3">3</a></span>
-<span class="normal"><a href="#__codelineno-11-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1"></a>|  表头   | 表头  |
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2"></a>|  ----  | ----  |
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3"></a>| 单元格  | 单元格 |
-</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4"></a>| 单元格  | 单元格 |
-</span></code></pre></div></td></tr></table></div>
-<table>
-<thead>
-<tr>
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody>
-</table>
+<h2 id="3-mvc-mtv">3. MVC 与 MTV模型<a class="headerlink" href="#3-mvc-mtv" title="Permanent link">&para;</a></h2>
+<h3 id="31-mvc">3.1 MVC 模型<a class="headerlink" href="#31-mvc" title="Permanent link">&para;</a></h3>
+<p>MVC 模式（Model–view–controller）是软件工程中的一种软件架构模式，把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。</p>
+<p>MVC 以一种插件式的、松耦合的方式连接在一起。</p>
 <ul>
-<li><code>-:</code> 设置内容和标题栏居右对齐。</li>
-<li><code>:-</code> 设置内容和标题栏居左对齐。</li>
-<li><code>:-:</code> 设置内容和标题栏居中对齐。</li>
+<li>模型（Model）：编写程序应有的功能，负责业务对象与数据库的映射(ORM)。</li>
+<li>视图（Viev）：图形界面，负责与用户的交互(页面)。</li>
+<li>控制器（Controller）：负责转发请求，对请求进行处理。</li>
 </ul>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1">1</a></span>
-<span class="normal"><a href="#__codelineno-12-2">2</a></span>
-<span class="normal"><a href="#__codelineno-12-3">3</a></span>
-<span class="normal"><a href="#__codelineno-12-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1"></a>| 左对齐 | 右对齐 | 居中对齐 |
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2"></a>| :-----| ----: | :----: |
-</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3"></a>| 单元格 | 单元格 | 单元格 |
-</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4"></a>| 单元格 | 单元格 | 单元格 |
-</span></code></pre></div></td></tr></table></div>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">左对齐</th>
-<th style="text-align: right;">右对齐</th>
-<th style="text-align: center;">居中对齐</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">单元格</td>
-<td style="text-align: right;">单元格</td>
-<td style="text-align: center;">单元格</td>
-</tr>
-<tr>
-<td style="text-align: left;">单元格</td>
-<td style="text-align: right;">单元格</td>
-<td style="text-align: center;">单元格</td>
-</tr>
-</tbody>
-</table>
+<p><img alt="alt" src="../assets/mvc.png" title="MVC 模型" /></p>
+<h3 id="32-mtv">3.2 MTV 模型<a class="headerlink" href="#32-mtv" title="Permanent link">&para;</a></h3>
+<p>Django 的 MTV 模式本质上和 MVC 是一样的，也是为了各组件间保持松耦合关系，只是定义上有些许不同，Django 的 MTV 分别是指：</p>
+<ul>
+<li>M 表示模型（Model）：编写程序应有的功能，负责业务对象与数据库的映射(ORM)。</li>
+<li>T 表示模板 (Template)：负责如何把页面(html)展示给用户。</li>
+<li>V 表示视图（View）：负责业务逻辑，并在适当时候调用 Model和 Template。</li>
+</ul>
+<p>除了以上三层之外，还需要一个 URL 分发器，它的作用是将一个个 URL 的页面请求分发给不同的 View 处理，View 再调用相应的 Model 和 Template。</p>
+<p><img alt="alt" src="../assets/mvt.png" title="MVT 模型" /></p>
+<h2 id="4">4. 相关链接<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Django 官网：<a href="https://www.djangoproject.com/">https://www.djangoproject.com/</a></li>
+<li>Django 文档：<a href="https://docs.djangoproject.com/zh-hans/">https://docs.djangoproject.com/zh-hans/</a></li>
+<li>菜鸟教程：<a href="https://www.runoob.com/django/django-tutorial.html">https://www.runoob.com/django/django-tutorial.html</a></li>
+</ul>
 
 
 
@@ -1790,7 +1554,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年1月25日 18:07:29"><span class="timeago" datetime="2025-01-25T18:07:29+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年1月25日 18:07:29">2025-01-25</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年5月11日 17:54:46"><span class="timeago" datetime="2025-05-11T17:54:46+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年5月11日 17:54:46">2025-05-11</span>
   </span>
 
     
@@ -1800,7 +1564,7 @@
     <span class="md-icon" title="创建日期">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2024年3月18日 21:25:03"><span class="timeago" datetime="2024-03-18T21:25:03+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2024年3月18日 21:25:03">2024-03-18</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年5月11日 17:54:46"><span class="timeago" datetime="2025-05-11T17:54:46+08:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年5月11日 17:54:46">2025-05-11</span>
   </span>
 
     
@@ -1837,7 +1601,7 @@
       <nav class="md-footer__inner md-grid" aria-label="页脚" >
         
           
-          <a href="../../git/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Git">
+          <a href="../../" class="md-footer__link md-footer__link--prev" aria-label="上一页: 编程简介">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1847,20 +1611,20 @@
                 上一页
               </span>
               <div class="md-ellipsis">
-                Git
+                编程简介
               </div>
             </div>
           </a>
         
         
           
-          <a href="../markdown_extensions/" class="md-footer__link md-footer__link--next" aria-label="下一页: Markdown 扩展语法">
+          <a href="../startproject/" class="md-footer__link md-footer__link--next" aria-label="下一页: 2. Django 工程搭建">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一页
               </span>
               <div class="md-ellipsis">
-                Markdown 扩展语法
+                2. Django 工程搭建
               </div>
             </div>
             <div class="md-footer__button md-icon">
