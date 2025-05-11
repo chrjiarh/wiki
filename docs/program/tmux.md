@@ -268,5 +268,5 @@ Tmux的所有指令，都包含同一个前缀，默认为 `Ctrl+b` ，输入完
 
 ## 参考文章
 
-* [Tmux使用手册](http://louiszhai.github.io/2017/09/30/tmux/)
+* [Tmux 使用手册](http://louiszhai.github.io/2017/09/30/tmux/)
 * [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)

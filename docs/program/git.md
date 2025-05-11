@@ -22,9 +22,9 @@ Git 的三种文件状态：
 
 
 
-## 1. 安装配置
+## 安装配置
 
-**安装**
+### 安装
 
 安装详见 [Git - Downloads](https://git-scm.com/downloads)。
 
@@ -35,7 +35,16 @@ Git 配置文件常用的有两个级别：
 
 > 设置多个配置文件时，局部设置会自动覆盖全局设置。  
 
-**设置用户信息**
+### 显示配置
+
+列出所有全局配置：
+```bash
+$ git config --global -l
+```
+
+通过 `git config -l` 列出当前已经设置的所有配置参数。
+
+### 设置用户信息
 
 设置用户名和邮箱：
 
@@ -48,21 +57,41 @@ $ git config --global user.email xxxx@xxx.com
 
 如果不添加 `--global` 选项，则会默认修改当前仓库下的局部配置文件。
 
-**显示配置**
+### 配置忽略文件
 
-列出所有全局配置：
-```bash
-$ git config --global -l
-```
+工作区新建一个名称为 `.gitignore` 的文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件，各种 `.gitignore` 文件可以参考官方提供的 [配置文件](https://github.com/github/gitignore)。
 
-通过 `git config -l` 列出当前已经设置的所有配置参数。
+??? abstract "`.gitignore` 忽略规则的匹配语法"
+    示例：
+    ```bash
+    #注释           .gitignore的注释
+    *.txt           忽略所有 .txt 后缀的文件
+    !src.a          忽略除 src.a 外的其他文件
+    /todo           仅忽略项目根目录下的 todo 文件，不包括 src/todo
+    build/          忽略 build/目录下的所有文件，过滤整个build文件夹；
+    doc/*.txt       忽略doc目录下所有 .txt 后缀的文件，但不包括doc子目录的 .txt 的文件
+    
+    bin/:           忽略当前路径下的 bin 文件夹，该文件夹下的所有内容都会被忽略，不忽略 bin 文件
+    /bin:           忽略根目录下的 bin 文件
+    /*.c:           忽略 cat.c，不忽略 build/cat.c
+    debug/*.obj:    忽略debug/io.obj，不忽略 debug/common/io.obj和tools/debug/io.obj
+    **/foo:         忽略/foo, a/foo, a/b/foo等
+    a/**/b:         忽略a/b, a/x/b, a/x/y/b等
+    !/bin/run.sh    不忽略bin目录下的run.sh文件
+    *.log:          忽略所有 .log 文件
+    config.js:      忽略当前路径的 config.js 文件
+    
+    /mtk/           忽略整个文件夹
+    *.zip           忽略所有.zip文件
+    /mtk/do.c       忽略某个具体文件
+    ```
+    注：Git 对于 `.gitignore` 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效。
 
 
+## 基本操作
 
-## 2. 基本操作
 
-
-### 2.1 创建仓库
+### 创建仓库
 
 **初始化仓库**
 
@@ -83,7 +112,7 @@ $ git clone <url>
 这样，被克隆的仓库的内容就会被储存到当前文件夹下一个与仓库同名的新文件夹。
 
 
-### 2.2 添加和提交
+### 添加和提交
 
 **添加到暂存区**
 
@@ -105,6 +134,7 @@ $ git commit -m <message>
 
 -  `-a` ：在提交前将所有已跟踪的文件的更改放入暂存区。未被跟踪的文件不会被自动加入暂存区，需要用 `git add` 命令手动添加。
 -  `-m` ：后面输入的是本次提交的说明，可以输入任意内容，最好是有意义的。
+-  `--amend` ：将当前改动追加到最近一次提交上。也叫追加提交，它可以在不增加一个新的提交的情况下，将新修改的代码追加到前一次的提交中。
 
 ??? Note "Git &nbsp; Commit &nbsp; Message 规范"
     每次提交，Commit message 都包括三个部分：**Header**（必需），**Body**（可选） 和 **Footer**（可选）。
@@ -144,7 +174,7 @@ $ git commit -m <message>
     - 结尾不加句号（.）
 
 
-### 2.3 查看状态或差异
+### 查看状态或差异
 
 **查看状态**
 
@@ -189,7 +219,7 @@ $ git diff
 - `git diff <commit-id> <commit-id>` ：查看两个提交之间的差异。
 
 
-### 2.4 撤销和恢复
+### 撤销和恢复
 
 **撤销或恢复文件**
 
@@ -267,10 +297,10 @@ $ git rm <file>
 
 
 
-## 3. 分支管理
+## 分支管理
 
 
-### 3.1 创建和重命名分支
+### 创建和重命名分支
 
 **创建分支**
 
@@ -290,7 +320,7 @@ $ git branch -m <old-branch-name> <new-branch-name>
 `git branch -m` 命令用于将当前分支重命名，或者将对应分支重命名。
 
 
-### 3.2 查看和切换分支
+### 查看和切换分支
 
 **查看分支**
 
@@ -327,7 +357,7 @@ $ git switch <branch-name>
 !!! Warning " `git switch` 命令是 Git 2.23 版本后引入的，此前版本需使用 `git checkout` 命令。"
 
 
-### 3.3 删除分支
+### 删除分支
 
 ```bash
 $ git branch -d <branch-name>
@@ -338,7 +368,7 @@ $ git branch -d <branch-name>
 `git branch -D` 命令用于强制删除分支，无论它的更改是否已经被合并到其他分支中。
 
 
-### 3.4 合并分支
+### 合并分支
 
 ```bash
 $ git merge <branch-name>
@@ -366,10 +396,10 @@ Git用 `<<<<<<<`，`=======`，`>>>>>>>` 标记出不同分支的内容。
 
 
 
-## 4. 远程仓库
+## 远程仓库
 
 
-### 4.1 远程仓库操作
+### 远程仓库操作
 
 **查看远程仓库**
 
@@ -420,7 +450,7 @@ $ git remote set-url <remote-name> <new-url>
 `git remote set-url` 命令修改指定远程仓库的 URL。
 
 
-### 4.2 从远程获取代码库
+### 从远程获取代码库
 
 ```bash
 $ git fetch <remote-name>
@@ -432,7 +462,7 @@ $ git fetch <remote-name> <branch-name>
 需要注意的是，`git fetch` 命令只会获取远程仓库的更改，而不会将这些更改合并到本地仓库中。
 
 
-### 4.3 下载远程代码并合并
+### 下载远程代码并合并
 
 ```bash
 $ git pull <remote-name> <branch-name>
@@ -446,7 +476,7 @@ $ git pull <remote-name> <branch-name>:<remote-branch-name>
 !!! Note "`git pull` 其实就是 `git fetch` 和 `git merge FETCH_HEAD` 的简写。"
 
 
-### 4.4 上传远程代码并合并
+### 上传远程代码并合并
 
 ```bash
 $ git push <remote-name> <branch-name>
@@ -462,7 +492,7 @@ $ git push <remote-name> <branch-name>:<remote-branch-name>
 
 
 
-## 5. 标签
+## 标签
 
 **列出标签**
 

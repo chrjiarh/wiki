@@ -1,6 +1,6 @@
 ---
 tags:
-  - VS Code
+  - Software
 ---
 
 # VS Code
@@ -12,6 +12,7 @@ tags:
 
 说明：
 
+- VS Code 快捷键文档：[macOS](./assets/keyboard-shortcuts-macos.pdf){:target="_blank"}｜[Windows](./assets/keyboard-shortcuts-windows.pdf){:target="_blank"}
 - macOS 的 ++option++ 键对应 Windows/Linux 的 ++alt++ 键；
 - macOS 的 ++cmd++ 键对应 Windows/Linux 的 ++ctrl++ 键；
 - 部分快捷键可能因系统或配置不同而有所差异。
@@ -165,3 +166,21 @@ tags:
 | :------------------ | :------------------------------------ |
 |  打开 Markdown 预览 |   ++ctrl+k++ &nbsp;&nbsp; ++v++       |
 |  禅模式             |   ++ctrl+k++ &nbsp;&nbsp; ++z++   |
+
+
+## VS Code 插件
+
+1. One Dark Pro ：颜色主题插件
+2. Material Icon Theme ：美化文件图标
+3. Docker
+4. Dev Containers ：在容器内进行代码开发
+5. IntelliCode ：AI 辅助代码开发
+6. GitLens
+7. Markdown All in One
+
+### Python
+
+1. Python
+2. Pylance
+3. Python Indent ：换行缩进
+4. autoDocstring - Python Docstring Generator ：自动生成函数注释模板

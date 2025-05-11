@@ -1,0 +1,7 @@
+authors:
+  Chris:
+    name: Chris Ginger        # Author name
+    description: Creator # Author description
+    avatar: https://octodex.github.com/images/privateinvestocat.jpg         # Author avatar
+    # slug: url           # Author profile slug
+    # url: url            # Author website URL
