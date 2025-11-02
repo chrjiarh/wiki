@@ -10,7 +10,7 @@
             "request": "launch",
             // "program": "${workspaceFolder}/mkdocs/__main__.py",
             "module": "mkdocs",
-            "args": ["serve", "-a", "0.0.0.0:8001"],
+            "args": ["serve", "-a", "127.0.0.1:8001", "-w", "overrides"],
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {

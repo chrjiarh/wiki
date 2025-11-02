@@ -1,11 +1,11 @@
 # Project Information
 site_name: Wiki
-site_url: https://chrishenryginger.github.io/wiki/
+site_url: https://chrjiarh.github.io/wiki/
 site_author: Chris
 
 # Repository
-repo_name: chrishenryginger/wiki
-repo_url: https://github.com/chrishenryginger/wiki
+repo_name: chrjiarh/wiki
+repo_url: https://github.com/chrjiarh/wiki
 edit_uri: edit/main/docs      # 编辑按钮跳转的链接
 
 # Copyright
@@ -88,7 +88,7 @@ theme:
 extra:
   social:     # 底部链接
     - icon: fontawesome/brands/github
-      link: https://github.com/chrishenryginger
+      link: https://github.com/chrjiarh
       name: Github
   tags:
     Linux: linux
@@ -178,6 +178,7 @@ nav:
       - Django:
         - 1. Django 简介: program/django/intro.md
         - 2. Django 工程搭建: program/django/startproject.md
+        - 3. Django 跨域请求: program/django/cors.md
     - 开发工具:
       - Git: program/git.md
       - Markdown:

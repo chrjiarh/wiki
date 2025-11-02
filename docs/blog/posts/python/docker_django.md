@@ -6,7 +6,6 @@ date: 2025-03-24
 categories:
   - Python
 tags:
-  - Python
   - Django
 ---
 

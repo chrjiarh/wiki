@@ -687,4 +687,4 @@ docker exec -it redis /bin/bash
 redis-cli
 ```
 
-如果需要连接 Redis，可[参考博客](../blog/posts/redis_conf.md)。
+如果需要连接 Redis，可参考[博客](../blog/posts/linux/redis_conf.md)。
