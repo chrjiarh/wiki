@@ -86,6 +86,14 @@
     background-color: transparent;
 }
 
+.md-header__title {
+    font-size: 1.0rem;
+}
+
+.md-nav,
+.md-tabs__link {
+    font-size: .75rem;
+}
 
 /* Nav */
 .md-nav__link[for] {
@@ -98,6 +106,17 @@
     min-height: 100vh;
 }
 
+.md-grid {
+    max-width: 68rem;
+}
+
+/* .md-typeset img,
+.md-typeset video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 35rem;
+} */
 
 /* Admonitions */
 .md-typeset .admonition,

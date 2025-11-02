@@ -1,91 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/tags/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/tags/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/2025/03/24/ds_store/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/03/24/ds_store/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/2025/05/11/git_ssh/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/05/11/git_ssh/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/2025/03/30/redis_conf/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/06/30/linux_connect/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/2025/03/24/docker_django/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/03/30/redis_conf/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/2025/03/24/pip/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/03/24/docker_django/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/2025/04/09/venv/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/03/24/pip/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/2025/04/09/venv/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/git/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/mac/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/git/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/tmux/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/mac/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/vscode/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/tmux/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/django/intro/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/vscode/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/django/startproject/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/django/cors/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/markdown/markdown_basic/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/django/intro/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/program/markdown/markdown_extensions/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/django/startproject/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/archive/2025/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/markdown/markdown_basic/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/category/linux/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/program/markdown/markdown_extensions/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/category/python/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/archive/2025/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
     <url>
-         <loc>https://chrishenryginger.github.io/wiki/blog/category/mac/</loc>
-         <lastmod>2025-05-11</lastmod>
+         <loc>https://chrjiarh.github.io/wiki/blog/category/linux/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://chrjiarh.github.io/wiki/blog/category/python/</loc>
+         <lastmod>2025-11-02</lastmod>
+    </url>
+    <url>
+         <loc>https://chrjiarh.github.io/wiki/blog/category/mac/</loc>
+         <lastmod>2025-11-02</lastmod>
     </url>
 </urlset>
